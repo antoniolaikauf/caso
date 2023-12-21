@@ -8,6 +8,7 @@ export default {
     <footer>
         <section id="section-informazioni">
             <div>
+                <!-- liste per contatti  -->
                 <ul>
                     <li>
                         <a href="#">
@@ -111,11 +112,11 @@ export default {
         </section>
         <section id="registrazione">
             <div>
-
+                <!-- pulsante per registrarsi  -->
                 <a href="" id="button-sign-up">
                     <h3>SIGN-UP NOW!</h3>
                 </a>
-
+                <!--lista con link social   -->
                 <ul>
                     <li><a href="">FOLLOW US</a></li>
                     <li><img src="../assets/img/footer-facebook.png" alt=""></li>
@@ -132,12 +133,10 @@ export default {
 <style scoped lang="scss">
 @use '../style/general.scss' as *;
 @use '../style/partials/variable' as *;
-
+// caratteristiche sezione per contattare l'azienda o domande 
 #section-informazioni {
     background-image: url(../assets/img/footer-bg.jpg);
     padding: 20px 0;
-    // background-size: contain;
-    object-fit: cover;
     height: 350px;
     overflow: hidden;
 
@@ -158,7 +157,7 @@ export default {
         }
     }
 }
-
+// sezione per contattare azienda sui social o registrarsi 
 #registrazione {
     padding: 20px;
     background-color: #303030;

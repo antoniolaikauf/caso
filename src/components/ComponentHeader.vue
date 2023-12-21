@@ -5,6 +5,7 @@ export default {
 
   data() {
     return {
+      // array con feat della pagina 
       links: [
         {
           text:"CHARACTERS",
@@ -70,7 +71,7 @@ export default {
       <div>
         <img src="../assets/img/dc-logo.png" alt="">
       </div>
-      <!-- lista mesu -->
+      <!-- lista menu -->
       <ul>
         <li v-for="link in links">
           <a :href="link.url" :class="{active:link.current}">{{ link.text }}</a>
@@ -85,6 +86,7 @@ export default {
 @use '../style/partials/variable' as *;
 
 .display-menu {
+  // caratteristiche generali di nav 
   display: $display_flex ;
   justify-content: $specific_content;
   width: $width_blocchi;
@@ -95,7 +97,7 @@ export default {
   img {
     width: 60px;
   }
-
+// caratteristiche di ul e i tag al suo interno 
   ul {
     display: $display_flex ;
     height: 100%;
@@ -109,6 +111,7 @@ export default {
 
   }
 
+// classe per capire pagina attuale 
   .active{
     color: blue;
     border-bottom: 2px solid blue;

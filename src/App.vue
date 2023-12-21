@@ -15,15 +15,18 @@ export default {
 </script>
 
 <template>
+  <!-- componente header -->
   <Header />
+  <!-- componente main -->
   <Main />
+  <!-- componente footer -->
   <Footer/>
 </template>
 
 <style lang="scss">
 @use './style/general.scss' as *;
 @use './style/partials/variable' as *;
-
+// cartteristiche di h3 del progetto 
 h3{
   color: $color_title;
 }

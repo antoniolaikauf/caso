@@ -7,6 +7,7 @@ export default {
 <template>
     <main>
         <section id="section-content">
+            <!-- contenitore  -->
             <div>
                 <strong>
                     -- content goes there --
@@ -15,25 +16,25 @@ export default {
         </section>
         <section id="section-utility">
             <div>
-                <ul>
+                <ul><!--list acon dentro utility-->
                     <li>
-                        <a href="#"><img src="../assets/img/buy-comics-digital-comics.png" alt=""></a>
+                        <a href="#"><img src="../assets/img/buy-comics-digital-comics.png" alt="#"></a>
                         <span>DIGITAL COMICS</span>
                     </li>
                     <li>
-                        <a href="#"><img src="../assets/img/buy-comics-merchandise.png" alt=""></a>
+                        <a href="#"><img src="../assets/img/buy-comics-merchandise.png" alt="#"></a>
                         <span>DC MERCHANDISE</span>
                     </li>
                     <li>
-                        <a href="#"><img src="../assets/img/buy-comics-subscriptions.png" alt=""></a>
+                        <a href="#"><img src="../assets/img/buy-comics-subscriptions.png" alt="#"></a>
                         <span>SUBSCRIPTION</span>
                     </li>
                     <li>
-                        <a href="#"><img src="../assets/img/buy-comics-shop-locator.png" alt=""></a>
+                        <a href="#"><img src="../assets/img/buy-comics-shop-locator.png" alt="#"></a>
                         <span>COMIC SHOP LOCATOR</span>
                     </li>
                     <li>
-                        <a href="#"><img src="../assets/img/buy-dc-power-visa.svg" alt=""></a>
+                        <a href="#"><img src="../assets/img/buy-dc-power-visa.svg" alt="#"></a>
                         <span>DC POWER VISA</span>
                     </li>
                 </ul>
@@ -46,7 +47,7 @@ export default {
 @use '../style/general.scss' as *;
 @use '../style/partials/variable' as *;
 
-
+// sezione dove c'è il contenuto 
 #section-content {
     background-color: black;
     color: white;
@@ -58,6 +59,7 @@ export default {
     }
 }
 
+// sezione condentro l'utility 
 #section-utility {
 
     background-color: #0282f9;
@@ -68,7 +70,7 @@ export default {
         width: $width_blocchi ;
         margin: $margin_blocchi;
         text-align: center;
-
+        // caratteristiche di ul e tag al suo interno 
         ul{
             display:$display_flex;
             justify-content: center;
