@@ -24,7 +24,7 @@ export default {
 @use './style/general.scss' as *;
 @use './style/partials/variable' as *;
 
-.color{
-  background-color: red;
+h3{
+  color: $color_title;
 }
 </style>

@@ -11,95 +11,102 @@ export default {
                 <ul>
                     <li>
                         <a href="#">
-                            <h3>dc comic</h3>
+                            <h3>DC COMIC</h3>
                         </a>
                     </li>
                     <li>
-                        <a href="#"> testo</a>
+                        <a href="#">Characters </a>
                     </li>
                     <li>
-                        <a href="#"> testo</a>
+                        <a href="#">Comics</a>
                     </li>
                     <li>
-                        <a href="#"> testo</a>
+                        <a href="#"> Movies</a>
                     </li>
                     <li>
-                        <a href="#"> testo</a>
+                        <a href="#"> TV</a>
                     </li>
                     <li>
-                        <a href="#"> testo</a>
+                        <a href="#"> Games</a>
                     </li>
                     <li>
-                        <a href="#"> testo</a>
+                        <a href="#"> News</a>
                     </li>
                     <li>
                         <a href="#">
-                            <h3>dc comic</h3>
+                            <h3>SHOP</h3>
                         </a>
                     </li>
                     <li>
-                        <a href="#"> testo</a>
+                        <a href="#"> Shop DC</a>
                     </li>
                     <li>
-                        <a href="#"> testo</a>
+                        <a href="#">Shop DC Collectibles </a>
                     </li>
                 </ul>
                 <ul>
                     <li>
                         <a href="#">
-                            <h3>dc comic</h3>
+                            <h3>DC</h3>
                         </a>
                     </li>
                     <li>
-                        <a href="#"> testo</a>
+                        <a href="#"> Terms Of Use</a>
                     </li>
                     <li>
-                        <a href="#"> testo</a>
+                        <a href="#"> Privacy policy ( Nes)</a>
                     </li>
                     <li>
-                        <a href="#"> testo</a>
+                        <a href="#"> Ad Choises</a>
                     </li>
                     <li>
-                        <a href="#"> testo</a>
+                        <a href="#"> Advertising</a>
                     </li>
                     <li>
-                        <a href="#"> testo</a>
+                        <a href="#"> Jobs</a>
                     </li>
                     <li>
-                        <a href="#"> testo</a>
+                        <a href="#"> Subscriptions</a>
                     </li>
                     <li>
-                        <a href="#"> testo</a>
+                        <a href="#"> Talent Workshop</a>
                     </li>
                     <li>
-                        <a href="#"> testo</a>
+                        <a href="#"> CPSC Certificates</a>
                     </li>
                     <li>
-                        <a href="#"> testo</a>
+                        <a href="#"> Ratingd</a>
                     </li>
                     <li>
-                        <a href="#"> testo</a>
+                        <a href="#"> Shop Help</a>
+                    </li>
+                    <li>
+                        <a href="#"> Contact Us</a>
                     </li>
                 </ul>
                 <ul>
                     <li>
                         <a href="#">
-                            <h3>dc comic</h3>
+                            <h3>SITES</h3>
                         </a>
                     </li>
                     <li>
-                        <a href="#"> testo</a>
+                        <a href="#"> DC</a>
                     </li>
                     <li>
-                        <a href="#"> testo</a>
+                        <a href="#"> MAD Magazine</a>
                     </li>
                     <li>
-                        <a href="#"> testo</a>
+                        <a href="#"> DC Kids</a>
                     </li>
                     <li>
-                        <a href="#"> testo</a>
+                        <a href="#"> DC Universe</a>
+                    </li>
+                    <li>
+                        <a href="#"> DC Power Visa</a>
                     </li>
                 </ul>
+                <img src="../assets/img/dc-logo-bg.png" alt="">
             </div>
         </section>
         <section id="registrazione">
@@ -108,12 +115,12 @@ export default {
                     <a href="">sign-up now</a>
                 </div>
                 <ul>
-                    <li><a href="">follow us</a></li>
+                    <li><a href="">FOLLOW US</a></li>
                     <li><img src="../assets/img/footer-facebook.png" alt=""></li>
-                    <li><img src="../assets/img/footer-facebook.png" alt=""></li>
-                    <li><img src="../assets/img/footer-facebook.png" alt=""></li>
-                    <li><img src="../assets/img/footer-facebook.png" alt=""></li>
-                    <li><img src="../assets/img/footer-facebook.png" alt=""></li>
+                    <li><img src="../assets/img/footer-periscope.png" alt=""></li>
+                    <li><img src="../assets/img/footer-pinterest.png" alt=""></li>
+                    <li><img src="../assets/img/footer-twitter.png" alt=""></li>
+                    <li><img src="../assets/img/footer-youtube.png" alt=""></li>
                 </ul>
             </div>
         </section>
@@ -128,11 +135,18 @@ export default {
     background-image: url(../assets/img/footer-bg.jpg);
     padding: 20px 0;
     background-size: contain;
+    height: 300px;
+    overflow: hidden;
 
     div {
         width: $width_blocchi ;
         margin: $margin_blocchi;
         display: $display_flex ;
+       
+
+        img {
+            margin: -50px 0;
+        }
 
         ul {
             margin-right: 10px;
@@ -148,9 +162,15 @@ export default {
         width: $width_blocchi ;
         margin: $margin_blocchi;
         display: $display_flex ;
-        ul{
+        justify-content: $specific_content ;
+
+
+
+        ul {
             display: $display_flex ;
         }
+
+
     }
 }
 </style>
