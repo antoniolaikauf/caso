@@ -111,9 +111,11 @@ export default {
         </section>
         <section id="registrazione">
             <div>
-                <div>
-                    <a href="">sign-up now</a>
-                </div>
+
+                <a href="" id="button-sign-up">
+                    <h3>SIGN-UP NOW!</h3>
+                </a>
+
                 <ul>
                     <li><a href="">FOLLOW US</a></li>
                     <li><img src="../assets/img/footer-facebook.png" alt=""></li>
@@ -134,15 +136,15 @@ export default {
 #section-informazioni {
     background-image: url(../assets/img/footer-bg.jpg);
     padding: 20px 0;
-    background-size: contain;
-    height: 300px;
+    // background-size: contain;
+    object-fit: cover;
+    height: 350px;
     overflow: hidden;
 
     div {
         width: $width_blocchi ;
         margin: $margin_blocchi;
         display: $display_flex ;
-       
 
         img {
             margin: -50px 0;
@@ -150,6 +152,9 @@ export default {
 
         ul {
             margin-right: 10px;
+        }
+        h3{
+            margin: 8px 0;
         }
     }
 }
@@ -164,12 +169,18 @@ export default {
         display: $display_flex ;
         justify-content: $specific_content ;
 
-
-
         ul {
             display: $display_flex ;
+            align-items:$specific_align ;
+            li{
+                margin: 0 5px;
+            }
         }
 
+        #button-sign-up {
+            padding: 10px;
+            border: 2px solid blue;
+        }
 
     }
 }
