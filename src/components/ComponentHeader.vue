@@ -73,7 +73,7 @@ export default {
       <!-- lista mesu -->
       <ul>
         <li v-for="link in links">
-          <a href="#">{{ link.text }}</a>
+          <a :href="link.url" :class="{active:link.current}">{{ link.text }}</a>
         </li>
       </ul>
     </nav>
@@ -90,7 +90,7 @@ export default {
   width: $width_blocchi;
   margin: $margin_blocchi;
   align-items: $specific_align;
-  padding: 20px 0px;
+  height: 100px;
 
   img {
     width: 60px;
@@ -98,12 +98,20 @@ export default {
 
   ul {
     display: $display_flex ;
-    justify-content: $specific_content;
+    height: 100%;
 
-    li {
+    a {
       padding: 0px 10px;
+      display: $display_flex ;
+      align-items: $specific_align;
+      height: 100%;
     }
 
+  }
+
+  .active{
+    color: blue;
+    border-bottom: 2px solid blue;
   }
 }
 </style>

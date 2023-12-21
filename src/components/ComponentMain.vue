@@ -75,8 +75,10 @@ export default {
             li{
                 display:$display_flex;
                 align-items:$specific_align ;
+                margin: 0 5px;
                 img{
                     width: 50px;
+                    margin-right: 5px;
                 }
             }
         }
