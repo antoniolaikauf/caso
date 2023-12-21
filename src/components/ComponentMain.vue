@@ -60,7 +60,7 @@ export default {
 
 #section-utility {
 
-    background-color: blue;
+    background-color: #0282f9;
     padding: 30px 0;
     
 
