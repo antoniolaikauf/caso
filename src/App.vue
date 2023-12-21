@@ -1,15 +1,19 @@
 <script >
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/ComponentHeader.vue'
+
+import Main from  './components/ComponentMain.vue'
 
 export default {
   components:{
-    HelloWorld
+    Header,
+    Main
   }
 }
 </script>
 
 <template>
-  <HelloWorld />
+  <Header />
+  <Main />
 </template>
 
 <style lang="scss">

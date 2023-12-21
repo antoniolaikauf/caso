@@ -1,6 +1,6 @@
 <script>
 export default {
-  HelloWorld: "HelloWorld"
+  header: "Header"
 }
 </script>
 
@@ -70,11 +70,4 @@ export default {
 
     }
 }
-
-
-
-
-
-
-
 </style>

@@ -78,16 +78,3 @@ button:focus-visible {
   }
 } */
 
-*{
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-}
-
-a{
-  text-decoration: none;
-}
-
-ul{
-  list-style: none;
-}
