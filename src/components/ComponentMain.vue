@@ -13,9 +13,30 @@ export default {
                 </strong>
             </div>
         </section>
-        <section>
+        <section id="section-utility">
             <div>
-                
+                <ul>
+                    <li>
+                        <a href="#"><img src="../assets/img/buy-comics-digital-comics.png" alt=""></a>
+                        <span>testo</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="../assets/img/buy-comics-digital-comics.png" alt=""></a>
+                        <span>testo</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="../assets/img/buy-comics-digital-comics.png" alt=""></a>
+                        <span>testo</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="../assets/img/buy-comics-digital-comics.png" alt=""></a>
+                        <span>testo</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="../assets/img/buy-comics-digital-comics.png" alt=""></a>
+                        <span>testo</span>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>
@@ -34,6 +55,31 @@ export default {
     div {
         width: $width_blocchi ;
         margin: $margin_blocchi;
+    }
+}
+
+#section-utility {
+
+    background-color: blue;
+    padding: 30px 0;
+    
+
+    div {
+        width: $width_blocchi ;
+        margin: $margin_blocchi;
+        text-align: center;
+
+        ul{
+            display:$display_flex;
+            justify-content: center;
+            li{
+                display:$display_flex;
+                align-items:$specific_align ;
+                img{
+                    width: 50px;
+                }
+            }
+        }
     }
 }
 </style>
