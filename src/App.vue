@@ -1,26 +1,26 @@
 <script >
-import Header from './components/ComponentHeader.vue'
+import ComHeader from './components/ComponentHeader.vue'
 
-import Main from  './components/ComponentMain.vue'
+import ComMain from  './components/ComponentMain.vue'
 
-import Footer from './components/ComponentFooter.vue'
+import ComFooter from './components/ComponentFooter.vue'
 
 export default {
   components:{
-    Header,
-    Main,
-    Footer
+    ComHeader,
+    ComMain,
+    ComFooter
   }
 }
 </script>
 
 <template>
   <!-- componente header -->
-  <Header />
+  <ComHeader />
   <!-- componente main -->
-  <Main />
+  <ComMain />
   <!-- componente footer -->
-  <Footer/>
+  <ComFooter/>
 </template>
 
 <style lang="scss">

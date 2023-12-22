@@ -1,6 +1,6 @@
 <script>
 export default {
-  header: "Header",
+  ComHeader: " Header",
 
 
   data() {
