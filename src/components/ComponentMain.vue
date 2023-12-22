@@ -97,18 +97,27 @@ export default {
         <section id="section-content">
 
             <span class="bg-img">
-
+                <!-- immahine sfondo  -->
             </span>
 
             <!-- contenitore  -->
             <div>
-                <card :cards="comics">
-                    <!-- <card/> -->
-                </card>
 
-                <a href="" class="button-add">
+                <a href="" class="current-series">
+                    CURRENT SERIES
+                </a>
+
+                <div id="contenitore">
+                    <card :cards="comics">
+                        <!-- <card/> -->
+                    </card>
+                </div>
+
+                <span>
+                    <a href="" class="button-add">
                     LOAD MORE
                 </a>
+                </span>
             </div>
         </section>
         <section id="section-utility">
@@ -148,9 +157,9 @@ export default {
 #section-content {
     background-color: black;
     color: white;
-    padding-bottom: 30px ;
+    padding-bottom: 40px;
 
-    .bg-img{
+    .bg-img {
         background-image: url(../assets/img/jumbotron.jpg);
         width: 100%;
         height: 200px;
@@ -161,14 +170,31 @@ export default {
     div {
         width: $width_blocchi ;
         margin: $margin_blocchi;
-        display: $display_flex ;
-        flex-wrap: wrap;
-        justify-content: center;
 
-        .button-add {
+
+
+
+        #contenitore {
+            display: $display_flex ;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+
+        .button-add,
+        .current-series {
             padding: 10px;
             background-color: blue;
             color: white;
+        }
+
+        .current-series {
+            position: relative;
+            top: -10px;
+        }
+
+        span{
+            display: block;
+            text-align: center;
         }
     }
 }
