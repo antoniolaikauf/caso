@@ -171,9 +171,6 @@ export default {
         width: $width_blocchi ;
         margin: $margin_blocchi;
 
-
-
-
         #contenitore {
             display: $display_flex ;
             flex-wrap: wrap;
@@ -183,8 +180,8 @@ export default {
         .button-add,
         .current-series {
             padding: 10px;
-            background-color: blue;
-            color: white;
+            background-color: $color-bg;
+            color:$color_text ;
         }
 
         .current-series {
@@ -195,6 +192,7 @@ export default {
         span{
             display: block;
             text-align: center;
+            margin-top: 10px;
         }
     }
 }
@@ -202,7 +200,7 @@ export default {
 // sezione condentro l'utility 
 #section-utility {
 
-    background-color: #0282f9;
+    background-color: $color-bg;
     padding: 30px 0;
 
 
@@ -220,6 +218,7 @@ export default {
                 display: $display_flex;
                 align-items: $specific_align ;
                 margin: 0 5px;
+                color: $color_text;
 
                 img {
                     width: 50px;

@@ -113,8 +113,8 @@ export default {
 
 // classe per capire pagina attuale 
   .active{
-    color: blue;
-    border-bottom: 2px solid blue;
+    color: $color-bg;
+    border-bottom: 2px solid $color-bg;
   }
 }
 </style>

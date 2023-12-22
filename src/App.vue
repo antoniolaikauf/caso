@@ -28,7 +28,7 @@ export default {
 @use './style/partials/variable' as *;
 // cartteristiche di h3 del progetto 
 h3{
-  color: $color_title;
+  color: $color_text;
 }
 </style>
 

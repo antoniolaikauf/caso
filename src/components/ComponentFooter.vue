@@ -178,7 +178,7 @@ export default {
 
         #button-sign-up {
             padding: 10px;
-            border: 2px solid blue;
+            border: 2px solid $color-bg;
         }
 
     }

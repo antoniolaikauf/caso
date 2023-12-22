@@ -7,14 +7,13 @@ export default {
         cards: Array
     }
 }
-
 </script>
 
 <template>
     <div v-for="(card, i) in cards" :key="i" class="card-iesima">
         <img :src="card.thumb" alt="">
         <div>
-            {{ card.series }}
+            {{ card.series.toUpperCase() }}
         </div>
     </div>
 </template>
