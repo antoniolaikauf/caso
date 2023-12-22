@@ -163,7 +163,7 @@ export default {
     background-color: #303030;
 
     div {
-        width: $width_blocchi ;
+        width:$width_blocchi  ;
         margin: $margin_blocchi;
         display: $display_flex ;
         justify-content: $specific_content ;

@@ -31,3 +31,6 @@ h3{
   color: $color_title;
 }
 </style>
+
+<!-- non usare i nomi come i tag del html 
+ -->
