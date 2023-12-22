@@ -3,7 +3,7 @@
 import card from './ComponentCard.vue'
 
 export default {
-    ComMain: " Main",
+    name: " ComMain",
 
     components: {
         card
@@ -95,11 +95,20 @@ export default {
 <template>
     <main>
         <section id="section-content">
+
+            <span class="bg-img">
+
+            </span>
+
             <!-- contenitore  -->
             <div>
                 <card :cards="comics">
                     <!-- <card/> -->
                 </card>
+
+                <a href="" class="button-add">
+                    LOAD MORE
+                </a>
             </div>
         </section>
         <section id="section-utility">
@@ -139,13 +148,28 @@ export default {
 #section-content {
     background-color: black;
     color: white;
-    padding: 30px 0;
+    padding-bottom: 30px ;
+
+    .bg-img{
+        background-image: url(../assets/img/jumbotron.jpg);
+        width: 100%;
+        height: 200px;
+        display: inline-block;
+        background-size: cover;
+    }
 
     div {
         width: $width_blocchi ;
         margin: $margin_blocchi;
-        display:$display_flex ;
+        display: $display_flex ;
         flex-wrap: wrap;
+        justify-content: center;
+
+        .button-add {
+            padding: 10px;
+            background-color: blue;
+            color: white;
+        }
     }
 }
 
@@ -178,4 +202,5 @@ export default {
             }
         }
     }
-}</style>
+}
+</style>
