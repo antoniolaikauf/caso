@@ -26,6 +26,7 @@ export default {
 .card-iesima {
     width: calc(100% / 6 - 10px);
     margin: 5px;
+    font-size: 10px;
 
     img {
         width: 100%;
